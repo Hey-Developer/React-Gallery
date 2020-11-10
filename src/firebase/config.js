@@ -1,3 +1,7 @@
+import * as firebase from "firebase/app";
+import "firebase/storage";
+import "firebase/firestore";
+
 // It is our firebase initialization code but to execute the following we have to first install firebase in frontend also.. |^
 //? TO do that npm install firebase and then import the files...
 var firebaseConfig = {
